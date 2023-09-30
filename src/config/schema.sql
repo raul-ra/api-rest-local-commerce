@@ -1,6 +1,6 @@
 -- Create the database if it does not exist
-CREATE DATABASE IF NOT EXISTS local_commerce;
-USE local_commerce;
+CREATE DATABASE IF NOT EXISTS local_commerce_fake;
+USE local_commerce_fake;
 
 -- Create the table of brands
 CREATE TABLE IF NOT EXISTS brands (
