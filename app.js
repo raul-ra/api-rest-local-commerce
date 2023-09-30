@@ -16,3 +16,5 @@ app.listen(PORT, async () => {
     console.log('Database Connected!');
 });
 
+await sequelize.sync({ alter: true });
+console.log('All models were synchronized successfully.');
