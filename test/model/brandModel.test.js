@@ -1,4 +1,4 @@
-import { Brand } from '../src/models/brand.js';
+import { Brand } from '../../src/models/brand.js';
 
 describe('Brand Model', () => {
     beforeAll(async () => {
