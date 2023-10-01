@@ -1,4 +1,5 @@
-// productRoutes.test.js
+/*Important: to run unit testing go first to .env*/
+
 import request from 'supertest';
 import app from '../../app.js'; 
 

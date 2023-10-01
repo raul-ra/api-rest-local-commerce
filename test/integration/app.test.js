@@ -1,3 +1,5 @@
+/*Important: to run unit testing go first to .env*/
+
 import request from 'supertest';
 import express from 'express';
 import brandRoutes from './src/routes/brandRoutes.js';

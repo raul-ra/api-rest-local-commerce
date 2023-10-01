@@ -1,3 +1,5 @@
+/*Important: to run unit testing go first to .env*/
+
 import { Brand } from '../../src/models/brand.js';
 
 describe('Brand Model', () => {
