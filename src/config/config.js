@@ -1,3 +1,5 @@
+/*Important: to run unit testing go first to .env*/
+
 import dotenv from 'dotenv';
 
 dotenv.config();
