@@ -23,3 +23,5 @@ app.listen(PORT, async () => {
 
 await sequelize.sync({ alter: true });
 console.log('All models were synchronized successfully.');
+
+export default app

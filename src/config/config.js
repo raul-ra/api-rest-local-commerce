@@ -1,15 +1,16 @@
 /*Important: to run unit testing go first to .env*/
 
-import dotenv from 'dotenv';
+import { config } from 'dotenv';
 
-dotenv.config();
+config();
 
-export default {
-    development: {
-        username: process.env.DB_USERNAME || 'root',
-        password: process.env.DB_PASSWORD || 'password',
-        database: process.env.DB_NAME || 'local_commerce_fake',
-        host: process.env.DB_HOST || '127.0.0.1',
-        dialect: process.env.DB_DIALECT || 'mysql'
-    }
-}
+
+    
+     export const username = process.env.DB_USERNAME || 'root'
+     export const password= process.env.DB_PASSWORD || 'password'
+     export const database= process.env.DB_NAME || 'local_commerce_fake'
+     export const host= process.env.DB_HOST || '127.0.0.1'
+     export const dialect= process.env.DB_DIALECT || 'mysql'
+    //  export const NODE_ENV= process.env.NODE_ENV
+    
+

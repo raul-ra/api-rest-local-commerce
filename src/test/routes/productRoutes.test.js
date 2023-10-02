@@ -1,7 +1,7 @@
 /*Important: to run unit testing go first to .env*/
 
 import request from 'supertest';
-import app from '../../app.js'; 
+import app from '../../../app.js'; 
 
 describe('Products API', () => {
 

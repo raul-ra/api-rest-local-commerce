@@ -1,16 +1,17 @@
 /*Important: to run unit testing go first to .env*/
 
 import request from 'supertest';
-import express from 'express';
-import brandRoutes from './src/routes/brandRoutes.js';
-import productRoutes from './src/routes/productRoutes.js';
-import sequelize from './src/config/database.js';
+// import express from 'express';
+// import brandRoutes from './src/routes/brandRoutes.js';
+// import productRoutes from './src/routes/productRoutes.js';
+import {sequelize} from '../../src/config/database.js';
+import app from '../../app.js'
 
-const app = express();
-app.use(express.json());
+// const app = express();
+// app.use(express.json());
 
-app.use('/brands', brandRoutes);
-app.use('/products', productRoutes);
+// app.use('/brands', brandRoutes);
+// app.use('/products', productRoutes);
 
 describe('App Test', () => {
     beforeAll(async () => {

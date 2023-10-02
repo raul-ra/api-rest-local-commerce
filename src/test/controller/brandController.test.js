@@ -1,7 +1,5 @@
-/*Important: to run unit testing go first to .env*/
-
-import request from 'supertest';
-import app from '../../app.js'
+const request = require('supertest')
+import app from '../../../app.js';
 
 describe('Brand Routes', () => {
     it('should fetch all brands', async () => {
